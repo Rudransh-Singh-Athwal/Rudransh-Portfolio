@@ -180,8 +180,8 @@ const projects = [
       },
     ],
     image: certificate,
-    app_link: " ",
-    source_code_link: "https://github.com/",
+    app_link: "https://github.com/Rudransh-Singh-Athwal/Certifica_Authentify",
+    // source_code_link: "https://github.com/",
   },
 
   // {
