@@ -42,11 +42,7 @@ const Hero = () => {
             Hi, I'm<span className="text-[#6d96e3]"> Rudransh</span>{" "}
           </h1>
           <p>
-            I'm an avid web developer
-{/*             <br
-              className="sm:block" 
-            /> */}
-            constantly seeking to evolve through embracing new technologies and
+            I'm an avid web developer constantly seeking to evolve through embracing new technologies and
             techniques.
           </p>
         </div>
