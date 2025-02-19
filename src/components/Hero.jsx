@@ -44,7 +44,7 @@ const Hero = () => {
           <p>
             I'm an avid web developer
             <br
-              className="sm:block hidden" /* wrong with this why not working */
+              className="sm:block" /* wrong with this why not working */
             />
             constantly seeking to evolve through embracing new technologies and
             techniques.
