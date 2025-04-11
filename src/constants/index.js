@@ -31,6 +31,21 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "LeetCode",
+    title: "LeetCode",
+    dedicatedLink: "https://leetcode.com/u/rsathwal04/",
+  },
+  {
+    id: "GitHub",
+    title: "GitHub",
+    dedicatedLink: "https://github.com/Rudransh-Singh-Athwal/",
+  },
+  {
+    id: "LinkedIn",
+    title: "LinkedIn",
+    dedicatedLink: "https://linkedin.com/in/rudransh-singh-athwal/",
+  },
 ];
 
 const services = [
