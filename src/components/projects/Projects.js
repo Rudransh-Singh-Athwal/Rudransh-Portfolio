@@ -6,7 +6,7 @@ import flashCards from "../../assets/projects/flashCards.png";
 import Textify from "../../assets/projects/Textify-dark-theme.png";
 import TicTacToe from "../../assets/projects/TicTacToe2.png";
 import ComputerVision from "../../assets/projects/ComputerVision1.png";
-import ExploringThePast from "../../assets/projects/ExploringThePast1.png";
+import csedNith from "../../assets/projects/csedNith.png";
 import CampusConnect from "../../assets/projects/CampusConnect4.png";
 import Tetris from "../../assets/projects/Tetris.png";
 import ToDo from "../../assets/projects/ToDo.png";
@@ -46,15 +46,15 @@ export default function Projects() {
       desc: "It is an interactive web application for studying with digital flashcards, where each card flips to reveal the answer on click. Users can navigate between cards using Previous and Next buttons and fully manage their collection by adding, editing, or deleting cards, making it a simple yet effective tool for learning.",
       link: "https://flashcards-rudransh.netlify.app/",
       github: "https://github.com/Rudransh-Singh-Athwal/Flash-Cards",
-      tech: [html, tailwind, js, react, node, nextjs, express, mongodb],
+      tech: [html, css, js, sql, express],
     },
     {
-      title: "Exploring The Past",
-      img: ExploringThePast,
-      desc: "Encourages tourism by delivering immersive experiences of bygone periods, boosting awareness of cultural and historical sites, and advocating for sustainable tourism.",
-      link: "https://replit.com/@Comreton/History-VR?v=1",
-      github: "https://github.com/pearlrathour/kullu-history-threejs",
-      tech: [html, js, tailwind, blender, threejs, sql, react, solidity],
+      title: "Official website of CSE Department, NIT'H",
+      img: csedNith,
+      desc: "This is an information-centric portal that presents program details, faculty profiles, research highlights, labs and facilities, and academic resources (syllabi, timetables, downloadable forms), with a dynamic notices/events section for timely announcements. It provides quick access to contact information, course and faculty pages, and responsive navigation across devices while supporting dynamic content updates so department news and notices display promptly.",
+      link: "https://cse.nith.ac.in/",
+      github: "https://github.com/cseWebsite/cseFrontend/",
+      tech: [html, tailwind, js, react, nextjs, node, sql],
     },
     {
       title: "Campus Connect",
