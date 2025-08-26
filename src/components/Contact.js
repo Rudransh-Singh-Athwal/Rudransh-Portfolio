@@ -73,7 +73,7 @@ export default function Contact() {
 
       <div className="flex justify-center py-6">
         <a
-          href="https://leetcode.com/PearlRathour/"
+          href="https://leetcode.com/rsathwal04/"
           target="_blank"
           rel="noreferrer"
         >
@@ -97,7 +97,11 @@ export default function Contact() {
           </button>
         </a>
 
-        <a href="https://www.linkedin.com/in/pearlrathour/">
+        <a
+          href="https://www.linkedin.com/in/rudransh-singh-athwal/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             type="button"
             class="text-white hover:text-[#0077b5] rounded-sm p-3 inline-flex items-center text-center mr-3 my-1.5"
@@ -113,7 +117,7 @@ export default function Contact() {
           </button>
         </a>
 
-        <a href="mailto:pearl.rathour33@gmail.com">
+        <a href="mailto:rsathwal04@gmail.com" target="_blank" rel="noreferrer">
           <button
             type="button"
             class="text-white hover:text-[#ea4335] rounded-sm p-3 text-center inline-flex items-center mr-3 my-1.5"
@@ -134,7 +138,11 @@ export default function Contact() {
           </button>
         </a>
 
-        <a href="https://github.com/pearlrathour">
+        <a
+          href="https://github.com/Rudransh-Singh-Athwal"
+          target="_blank"
+          rel="noreferrer "
+        >
           <button
             type="button"
             class="text-white hover:text-[#333] rounded-sm p-3 text-center inline-flex items-center mr-3 my-1.5"
@@ -150,7 +158,11 @@ export default function Contact() {
           </button>
         </a>
 
-        <a href="https://www.instagram.com/pearlrathour/">
+        <a
+          href="https://www.instagram.com/rudranshsinghathwal/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             type="button"
             class="text-white hover:text-[#c13584] rounded-sm p-3 text-center inline-flex items-center mr-3 my-1.5"
@@ -166,7 +178,7 @@ export default function Contact() {
           </button>
         </a>
 
-        <a href="https://twitter.com/PearlRathour">
+        {/* <a href="https://twitter.com/PearlRathour">
           <button
             type="button"
             class="text-white hover:text-[rgb(231, 233, 234)] rounded-sm p-3 text-center inline-flex items-center mr-3 my-1.5"
@@ -185,9 +197,9 @@ export default function Contact() {
               />
             </svg>
           </button>
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           href="https://www.codechef.com/users/pearlrathour"
           target="_blank"
           rel="noreferrer"
@@ -210,7 +222,7 @@ export default function Contact() {
               />
             </svg>
           </button>
-        </a>
+        </a> */}
       </div>
     </section>
   );

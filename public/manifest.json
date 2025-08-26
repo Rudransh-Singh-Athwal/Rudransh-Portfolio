@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "PR-1",
+      "src": "rsaLogo",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "PR-2",
+      "src": "rsaLogo",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "PR-3",
+      "src": "rsaLogo",
       "type": "image/png",
       "sizes": "512x512"
     }
