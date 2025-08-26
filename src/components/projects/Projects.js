@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
 
-import ParkShare from "../../assets/projects/ParkShare.png";
+import fintrackHome from "../../assets/projects/fintrackHome.png";
 import NewsApp from "../../assets/projects/NewsApp.png";
 import Textify from "../../assets/projects/Textify-dark-theme.png";
 import TicTacToe from "../../assets/projects/TicTacToe2.png";
@@ -34,7 +34,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Fintrack",
-      img: ParkShare,
+      img: fintrackHome,
       desc: "FinTrack is a sleek, responsive web application focused on personal finance management. Its intuitive dashboard provides users with real-time insights into their total expenses, income, net savings, and allows a breakdown of monthly expenditures, income categories, and recent transactions—all in one glance.",
       link: "https://fintrack-rsa.vercel.app/",
       github: "https://github.com/Rudransh-Singh-Athwal/Fintrack",
@@ -42,7 +42,7 @@ export default function Projects() {
     },
     {
       title: "Fintrack",
-      img: ParkShare,
+      img: fintrackHome,
       desc: "FinTrack is a sleek, responsive web application focused on personal finance management. Its intuitive dashboard provides users with real-time insights into their total expenses, income, net savings, and allows a breakdown of monthly expenditures, income categories, and recent transactions—all in one glance.",
       link: "https://fintrack-rsa.vercel.app/",
       github: "https://github.com/Rudransh-Singh-Athwal/Fintrack",
