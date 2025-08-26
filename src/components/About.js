@@ -12,20 +12,17 @@ export default function About() {
           </h2>
           <div className="text-gray-400 text-lg text-center py-6 max-w-2xl">
             <p>
-              I am an undergraduate pursuing B-Tech in Electronics and
-              Communication Engineering from
-              <span className="text-cyan-400 ml-2">NIT Hamirpur</span> with a
-              current grade point of
-              <span className="text-cyan-400 ml-2">8.98.</span> While my current
-              focus is on working with the MERN stack, I am eager to explore the
-              vast potential of Machine Learning and Artificial Intelligence.
-              With an insatiable curiosity and an unwavering commitment to
-              learning, I am determined to make a significant impact in these
-              cutting-edge fields. I actively participate in hackathons, and I
-              take pride in being a
-              <span className="text-cyan-400 ml-2">SIH'22</span> Finalist and
-              winning the Travel and Tourism category in{" "}
-              <span className="text-cyan-400 ml-2">Electorthon 5.0.</span>
+              I am an undergraduate pursuing B-Tech in Computer Science &
+              Engineering from
+              <span className="text-cyan-400 ml-2">NIT Hamirpur</span> I'm a
+              MERN-stack developer with solid SQL experience who loves turning
+              ideas into polished products. I keep my algorithms sharp by
+              solving LeetCode problems regularly and I'm actively studying
+              System Design to build scalable systems. Lately I've been
+              branching into app development to bring smarter experiences to the
+              projects I build. I value hands-on learning, clean code, and
+              designing systems that scale — and I'm excited to apply what I
+              learn to real-world problems.
             </p>
             <div className="mt-6">
               <Link to="contact" className="text-cyan-400 cursor-pointer">
