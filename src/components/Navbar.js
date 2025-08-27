@@ -37,13 +37,13 @@ export default function Navbar() {
                   >
                     About
                   </Link>
-                  {/* <Link
+                  <Link
                     to="experience"
                     className="text-gray-300 hover:bg-cyan-500 hover:text-white hover:glow rounded-md px-3 py-2"
                     style={{ "--glow-color": "cyan", "--glow-size": "3px" }}
                   >
                     Experience
-                  </Link> */}
+                  </Link>
                   <Link
                     to="projects"
                     className="text-gray-300 hover:bg-cyan-500 hover:text-white hover:glow rounded-md px-3 py-2"
