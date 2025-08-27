@@ -1,0 +1,3 @@
+﻿[build]
+  command = "npm ci && npm run build"
+  publish = "build"
