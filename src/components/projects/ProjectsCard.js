@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { LinkIcon } from "@heroicons/react/24/outline";
 import "../../index.css";

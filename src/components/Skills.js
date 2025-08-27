@@ -5,7 +5,6 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
-import bootstrap from "../assets/bootstrap.png";
 import tailwind from "../assets/tailwind.png";
 import nodejs from "../assets/nodejs.png";
 import express from "../assets/express.png";
@@ -13,8 +12,9 @@ import mongodb from "../assets/mongodb.png";
 import mysql from "../assets/sql.png";
 import c from "../assets/c.png";
 import cpp from "../assets/cpp.png";
-import python from "../assets/python.png";
-import opencv from "../assets/opencv.png";
+// import bootstrap from "../assets/bootstrap.png";
+// import python from "../assets/python.png";
+// import opencv from "../assets/opencv.png";
 
 export default function Skills() {
   const [scroll, setScroll] = useState("");

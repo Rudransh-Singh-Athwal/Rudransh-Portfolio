@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import boy from "../../assets/boy.png";
 import "../../index.css";
 import Type from "./Type";

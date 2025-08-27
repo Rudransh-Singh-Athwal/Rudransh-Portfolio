@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Skills from "./Skills";
 import { Link } from "react-scroll";
 
