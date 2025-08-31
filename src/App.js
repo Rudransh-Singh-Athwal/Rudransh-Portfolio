@@ -14,21 +14,16 @@ import Experience from "./components/experience/Experience";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <About />
-      {/* <Education/> */}
-      <Experience />
-      <Projects />
-      <Contact />
-      {/* <Experience /> */}
-      {/* <Router>
-        <Routes>
-        <Route exact path="/" element={<Home />} />
-          <Route exact path="/Education" element={<Education />} />
-          <Route exact path="/Skills" element={<Skills />} />
-        </Routes>
-      </Router> */}
+      <nav className="fixed top-0 left-0 w-full z-50">
+        <Navbar />
+      </nav>
+      <div className="pt-16">
+        <Home />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }
