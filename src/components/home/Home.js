@@ -136,7 +136,7 @@ export default function Home() {
             </a> */}
 
             <a
-              href="https://leetcode.com/PearlRathour/"
+              href="https://leetcode.com/u/rsathwal04/"
               target="_blank"
               rel="noopener noreferrer"
             >
