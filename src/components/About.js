@@ -35,7 +35,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="md:block mt-8 lg:mt-0">
+        <div className="md:block mt-8 lg:mt-0 ml-12 md:ml-0">
           <Skills />
         </div>
       </div>
