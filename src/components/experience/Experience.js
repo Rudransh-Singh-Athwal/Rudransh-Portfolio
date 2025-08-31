@@ -29,48 +29,16 @@ export default function Experience() {
       link: "https://www.linkedin.com/company/exe-nith/ ",
       date: "Dec 2023 - Dec 2024",
     },
-    // {
-    //   img: GSSoC,
-    //   bg: "red-100",
-    //   position: "Open Source Developer",
-    //   company: "GSSoC",
-    //   link: "https://gssoc.girlscript.tech/",
-    //   date: "May 2023 - Aug 2023",
-    // },
-    // {
-    //   img: SSoC,
-    //   bg: "yellow-100",
-    //   position: "Open Source Developer",
-    //   company: "SSoC",
-    //   link: "https://www.linkedin.com/showcase/socialsummerofcode/",
-    //   date: "Jun 2023 - Aug 2023",
-    // },
-    // {
-    //   img: Hacktoberfest,
-    //   bg: "red-100",
-    //   position: "Open Source Developer",
-    //   company: "Hacktoberfest",
-    //   link: "https://www.linkedin.com/company/hacktoberfest/",
-    //   date: "Oct 2022",
-    // },
-    // {
-    //   img: Vibhav,
-    //   bg: "red-100",
-    //   position: "Volunteer",
-    //   company: "Vibhav",
-    //   link: "https://www.linkedin.com/company/team-vibhav/",
-    //   date: "Mar 2022 - Dec 2022",
-    // },
   ];
   return (
-    <div name="experience" className="h-full w-full my-[8%]">
-      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+    <div name="experience" className="w-full min-h-screen py-12">
+      <div className="max-w-screen-xl mx-auto px-6 flex flex-col items-center justify-center h-full lg:flex-row">
         <div className="flex flex-col justify-center h-full w-full">
-          <div className="flex flex-row justify-center text-6xl text-white font-bold  my-[6%] animate-fall">
+          <div className="flex flex-row justify-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold my-6 animate-fall">
             Experience
           </div>
 
-          <div className="grid grid-cols-3 grid-rows-2 gap-2 max-w-[100%] m-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[100%] m-auto w-full">
             {experiences.map((experience) => (
               <ExperienceCard exp={experience} />
             ))}
