@@ -13,7 +13,7 @@ import Experience from "./components/experience/Experience";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <nav className="fixed top-0 left-0 w-full z-50">
         <Navbar />
       </nav>

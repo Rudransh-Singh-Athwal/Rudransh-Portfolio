@@ -21,7 +21,7 @@ import nextjs from "../../assets/nextjs.png";
 export default function Projects() {
   const projects = [
     {
-      title: "Official website of CSE Department, NIT'H",
+      title: "Official portal of CSE Department, NIT Hamirpur",
       img: csedNith,
       desc: "This is an information-centric portal that presents program details, faculty profiles, research highlights, labs and facilities, and academic resources (syllabi, timetables, downloadable forms), with a dynamic notices/events section for timely announcements. It provides quick access to contact information, course and faculty pages, and responsive navigation across devices while supporting dynamic content updates so department news and notices display promptly.",
       link: "https://cse.nith.ac.in/",
