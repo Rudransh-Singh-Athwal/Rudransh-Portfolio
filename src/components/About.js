@@ -4,13 +4,13 @@ import { Link } from "react-scroll";
 
 export default function About() {
   return (
-    <div id="about" name="about" className="h-screen w-full">
-      <div className="max-w-screen-xl mx-[9%] flex flex-col items-center justify-between h-full gap-[10%] lg:flex-row">
-        <div className="flex flex-col justify-center h-full mt-20">
-          <h2 className="text-3xl text-center font-bold text-white mb-6">
+    <div id="about" name="about" className="w-full min-h-screen">
+      <div className="max-w-screen-xl mx-[9%] px-6 flex flex-col items-center justify-between h-full gap-8 lg:flex-row lg:gap-[10%] py-12">
+        <div className="flex flex-col justify-center h-full mt-8 lg:mt-20 w-full">
+          <h2 className="text-2xl sm:text-3xl lg:text-3xl text-center lg:text-center font-bold text-white mb-4 sm:mb-6">
             MORE ABOUT MYSELF
           </h2>
-          <div className="text-gray-400 text-lg text-center py-6 max-w-2xl">
+          <div className="text-gray-400 text-base sm:text-lg text-center lg:text-center py-4 sm:py-6 max-w-2xl mx-auto">
             <p>
               I am an undergraduate pursuing B-Tech in Computer Science &
               Engineering from
@@ -25,14 +25,17 @@ export default function About() {
               learn to real-world problems.
             </p>
             <div className="mt-6">
-              <Link to="contact" className="text-cyan-400 cursor-pointer">
+              <Link
+                to="contact"
+                className="text-cyan-400 cursor-pointer inline-block"
+              >
                 Join me on this exciting journey of innovation and technology.
               </Link>
             </div>
           </div>
         </div>
 
-        <div className="md:block">
+        <div className="md:block mt-8 lg:mt-0">
           <Skills />
         </div>
       </div>
