@@ -100,6 +100,7 @@ export default function Home() {
               <button
                 type="button"
                 class="text-white bg-[#FFA116] rounded-full p-3 text-center inline-flex items-center mr-3 my-1.5 hover:glow"
+                style={{ "--glow-color": "orange" }}
               >
                 <svg
                   class="h-5 w-5"
@@ -121,6 +122,7 @@ export default function Home() {
               <button
                 type="button"
                 class="text-white bg-[#1F8ACB] rounded-full p-3 text-center inline-flex items-center mr-3 my-1.5 hover:glow"
+                style={{ "--glow-color": "blue" }}
               >
                 <svg
                   class="h-5 w-5"
