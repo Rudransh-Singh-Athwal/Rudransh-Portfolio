@@ -5,6 +5,7 @@ import fintrackHome from "../../assets/projects/fintrackHome.png";
 import flashCards from "../../assets/projects/flashCards.png";
 import csedNith from "../../assets/projects/csedNith.png";
 import certificaAuthentify from "../../assets/projects/certificaAuthentify.png";
+import talentFlow from "../../assets/projects/talentFlow.png";
 
 import react from "../../assets/react.png";
 import tailwind from "../../assets/tailwind.png";
@@ -43,6 +44,14 @@ export default function Projects() {
       link: "https://flashcards-rudransh.netlify.app/",
       github: "https://github.com/Rudransh-Singh-Athwal/Flash-Cards",
       tech: [html, css, js, sql, express],
+    },
+    {
+      title: "Talent-Flow",
+      img: talentFlow,
+      desc: "A React-based hiring management platform that allows HR teams to manage jobs, candidates, and assessments.",
+      link: "https://talent-flow-rsa.vercel.app/",
+      github: "https://github.com/Rudransh-Singh-Athwal/Talent-Flow",
+      tech: [html, css, js, react],
     },
     {
       title: "Certifica Authentify",
