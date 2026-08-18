@@ -2,7 +2,7 @@
 import boy from "../../assets/boy.png";
 import "../../index.css";
 import Type from "./Type";
-import resume from "../../assets/Rudransh_Resume.pdf";
+// import resume from "../../assets/Rudransh_Resume.pdf";
 
 export default function Home() {
   return (
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
 
           <div className="justify-center py-6">
-            <a href={resume} target="_blank" rel="noopener noreferrer">
+            <a href={`https://drive.google.com/drive/folders/1fHBO1AoIm0YYxpAt4F8VbnwzZB-RUe8W?usp=drive_link`} target="_blank" rel="noopener noreferrer">
               <button
                 className="relative inline-flex items-center justify-center mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group hover:text-white dark:text-white hover:glow"
                 style={{ "--glow-color": "cyan", "--glow-size": "3px" }}
